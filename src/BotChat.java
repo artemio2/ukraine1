@@ -74,7 +74,7 @@ public class BotChat {
 
     static void end()
     {
-        System.out.println("Great,you righy");
+        System.out.println("Great,you right!");
         System.out.println("Goodbye,have a nice day!");
     }
 
