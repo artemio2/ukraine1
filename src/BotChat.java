@@ -14,23 +14,23 @@ public class BotChat {
         end();
     }
 
-    static void first()
+    static void first() // 1 stage
     {
-        System.out.println("Hello! My name is " + "Aid" + ".");
-        System.out.println("I was created in " + "2018" + ".");
+        System.out.println("Hello! My name is Artem.");
+        System.out.println("I was created in 2021.");
         System.out.println("Please, remind me your name.");
     }
 
 
 
-    static void second()
+    static void second() // 2 stage
     {
         String name = scanner.nextLine();
         System.out.println("What a great name you have, " + name + "!");
     }
 
 
-    static void third()
+    static void third() // 3 stage
     {
         System.out.println("Let me guess your age.");
         System.out.println("Say me remainders of dividing your age by 3, 5 and 7.");
@@ -41,7 +41,7 @@ public class BotChat {
         System.out.println("Your age is " + age + "; that's a good time to start programming!");
     }//guess end
 
-    static void fourth()
+    static void fourth() //4 stage
     {
         System.out.println("Now I will prove to you that I can count to any number you want.");
         int num = scanner.nextInt();
@@ -51,7 +51,7 @@ public class BotChat {
         }
     }
 
-    static void fifth()
+    static void fifth() //5 stage
     {   System.out.println("Let's test your programming knowledge.");
         System.out.println("Why do we use methods?");
         System.out.println ("1. To repeat a statement multiple times.\n" +
@@ -62,15 +62,15 @@ public class BotChat {
         {
             Scanner in = new Scanner(System.in);
             System.out.print("");
-            int num = Integer.parseInt(in.next());
+            int number = Integer.parseInt(in.next());
 
-            if (num == 2)
+            if (number == 2)
             {
                 break;
             }
             else System.out.println("Please, try again.");
-        }//while end
-    }//test end
+        }
+    }
 
     static void end()
     {
